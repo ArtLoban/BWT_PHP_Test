@@ -1,0 +1,46 @@
+body {
+	padding-bottom: 70px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.form{
+	
+	margin-top: 100px;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+	background-color: #f8f8f8;
+	padding: 30px;
+
+}
+
+h3{
+	margin-top: 0px;
+}
+
+.regist{
+	color: #5bc0de;
+	font-size: 18px;
+	
+}
+
+.regist:hover {
+    color: #3c763d;
+    text-decoration: none;
+}
+
+.btn-div {
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.bday {
+	padding-top: 10px;
+}
+
+.captcha{
+	margin-top: 3px;
+}
