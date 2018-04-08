@@ -4,7 +4,7 @@ return array(
     
     // Обратная связь
     'feedback/post' => 'feedback/post',
-    'feedback/list' => 'feedback/list',
+    'feedback/list/page-([0-9]+)' => 'feedback/list/$1',
     
     // Пользователь:
     'user/register' => 'user/register',

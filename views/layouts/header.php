@@ -27,7 +27,7 @@
                                                                             <ul class="nav nav-pills ">
                                                                                     <li><a href="/">Главная</a></li>
                                                                                     <li><a href="/feedback/post">Оставить отзыв</a></li>
-                                                                                    <li><a href="#">Обратная связь</a></li>
+                                                                                    <li><a href="/feedback/list/page-1">Обратная связь</a></li>
                                                                                     <li><a href="/user/logout">Выход</a></li>
                                                                             </ul>
                                                                         </div>
