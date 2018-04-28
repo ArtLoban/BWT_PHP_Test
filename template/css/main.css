@@ -48,3 +48,47 @@ h3{
 .fb-list{
 	margin: 30px 0px 30px;
 }
+
+.main-content{
+	margin-top: 100px;
+}
+
+.top-part{
+	font-size: 19px;
+	padding: 5px;
+}
+
+th{
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}
+
+tr{
+	height: 60px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+tbody{
+	font-size: 16px;
+}
+
+.cltext{
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.temp-value{
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.day-part{
+	font-size: 17px;
+	font-weight: bold;
+}

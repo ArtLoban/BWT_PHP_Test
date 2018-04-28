@@ -1,0 +1,14 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+	
+    "autoload": {
+            "classmap": [
+                "models",
+                "components",
+                "controllers",
+                "libs"
+            ]
+    }
+}

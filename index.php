@@ -10,11 +10,10 @@ session_start();
 
 // Подключение файлов системы
 define('ROOT', dirname(__FILE__));
-require_once(ROOT.'/components/Autoload.php');
-
+//require_once(ROOT.'/components/Autoload.php');
+require_once(ROOT.'/vendor/autoload.php');
 
 // Допуск на сайт только авторизованных пользователей
-
 if (isset($_SESSION['user'])
     || $_SERVER["REQUEST_URI"] == '/user/login'
     || $_SERVER["REQUEST_URI"] == '/user/register'){

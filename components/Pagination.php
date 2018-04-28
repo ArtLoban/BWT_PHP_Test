@@ -7,30 +7,19 @@
 class Pagination
 {
 
-    /**
-     * @var Ссылок навигации на страницу
-     */
+    // Ссылок навигации на страницу
     private $max = 5;
 
-    /**
-     * @var Ключ для GET, в который пишется номер страницы
-     */
+    // Ключ для GET, в который пишется номер страницы
     private $index = 'page';
 
-    /**
-     * @var Текущая страница
-     */
+    // Текущая страница
     private $current_page;
 
-    /**
-     * @var Общее количество записей
-     */
+    // Общее количество записей
     private $total;
 
-    /**
-     * @var Записей на страницу
-     */
-    
+    // Записей на страницу
     private $limit;
 
     /**
@@ -104,8 +93,6 @@ class Pagination
     /**
      * Для генерации HTML-кода ссылки
      * @param integer $page - номер страницы
-     * 
-     * @return
      */
     private function generateHtml($page, $text = null)
     {
@@ -153,8 +140,6 @@ class Pagination
 
     /**
      * Для установки текущей страницы
-     * 
-     * @return
      */
     private function setCurrentPage($currentPage)
     {
