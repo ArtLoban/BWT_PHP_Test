@@ -2,28 +2,38 @@
 
 <section>
     <div class="container">
-        <div class="row">
-            <div class="main-content col-md-6 col-md-offset-3">
-            	<div class="row">
-            		<div class="top-part">
-	            		<div class="date col-md-2 col-md-offset-3">
-	            			<span class="text-primary"> <b><?= $weather['general'][0] ?></b> <br> <?= date('d.m')?> </span>
-	            		</div>
-	            		<div class="general-for-today col-md-4">
-	            			<img src=" <?= $weather['general'][1] ?>" alt="" width="55" height="55">
-	            			<span class='value min_temp text-primary'><?= $weather['general'][2] ?></span>
-	            			..
-	            			<span class='value max_temp text-danger'><?= $weather['general'][3] ?></span>
-	            		</div>
-            		</div>
-            	</div>
-            	<hr>
+        <div class="main-content ">
 
-            	<div class="row">
-            		<div class="wcontainer">
-            			<table >
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
 
-            				<thead>
+                    <div class="row">
+                        <div class="top-part">
+                            <div class="col-md-2 col-md-offset-3 col-sm-6 col-xs-3 col-xs-offset-1">
+                                <span class="text-primary">
+                                    <b><?= $weather['general'][0] ?></b> <br> <?= date('d.m')?>
+                                </span>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <img src=" <?= $weather['general'][1] ?>" alt="" width="55" height="55">
+                                <span class='value min_temp text-primary'><?= $weather['general'][2] ?></span>
+                                ..
+                                <span class='value max_temp text-danger'><?= $weather['general'][3] ?></span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+
+                    <div class="wcontainer">
+                        <table>
+
+                            <thead>
                                 <th></th>
                                 <th colspan="2">Характеристики&nbsp;погоды, атмосферные&nbsp;явления</th>
                                 <th>Tемпература воздуха,&nbsp;&deg;C</th>
@@ -58,13 +68,14 @@
                                             <span> <?= $weather['dayParts'][$i][8]?> </span>
                                         </td>
                                     </tr>
-                            	<?php endfor; ?>
+                                <?php endfor; ?>
                             </tbody>
 
-            			</table>
-            		</div>
-            	</div>
+                        </table>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 

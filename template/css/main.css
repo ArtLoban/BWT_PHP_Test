@@ -1,5 +1,14 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
-	padding-bottom: 70px;
+	margin-bottom: 60px;
+}
+
+.navbar-static-top {
+	margin-bottom: 19px;
 }
 
 .vertical-align {
@@ -89,3 +98,53 @@ tbody{
 	font-size: 17px;
 	font-weight: bold;
 }
+
+/* ### HEADER ### */
+
+.site-header {
+	font-size: 24px;
+	margin: 6px;
+}
+
+.site-header a{
+	color: #3c763d;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #337ab7;
+}
+
+
+
+/* ### FOOTER ### */
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+	border: 1px solid #e7e7e7;;
+}
+
+.footer-text{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
