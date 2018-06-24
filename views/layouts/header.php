@@ -17,22 +17,22 @@
 						<div class="container">
 							<div class="row vertical-align">
 								<div class="col-md-6">
-                                                                    <div class="title">
-                                                                        <h1 class="text-center text-success ">Погода в Запорожье сегодня</h1>
-                                                                    </div>
+                                    <div class="title">
+                                        <h1 class="text-center text-success ">Погода в Запорожье сегодня</h1>
+                                    </div>
 								</div>
-                                                                <?php if(isset($_SESSION['user'])): ?>
-                                                                    <div class="col-md-6">
-                                                                        <div class="navbar-right">
-                                                                            <ul class="nav nav-pills ">
-                                                                                    <li><a href="/">Главная</a></li>
-                                                                                    <li><a href="/feedback/post">Оставить отзыв</a></li>
-                                                                                    <li><a href="/feedback/list/page-1">Обратная связь</a></li>
-                                                                                    <li><a href="/user/logout">Выход</a></li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                <?php endif; ?>
+                                    <?php if(isset($_SESSION['user'])): ?>
+                                        <div class="col-md-6">
+                                            <div class="navbar-right">
+                                                <ul class="nav nav-pills ">
+                                                        <li><a href="/">Главная</a></li>
+                                                        <li><a href="/feedback/post">Оставить отзыв</a></li>
+                                                        <li><a href="/feedback/list/page-1">Обратная связь</a></li>
+                                                        <li><a href="/user/logout">Выход</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <?php endif; ?>
 							</div>
 						</div>
 					</nav>
